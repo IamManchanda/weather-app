@@ -4,7 +4,7 @@ Using NPM?
 
 ```
 > npm install
-> npm dev
+> npm run dev
 ```
 
 Using Yarn?
