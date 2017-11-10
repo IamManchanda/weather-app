@@ -1,0 +1,13 @@
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+#map {
+  width: 120px;
+  height: 97px;
+}
+
+svg {
+  height: 90px;
+}

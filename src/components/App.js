@@ -1,9 +1,26 @@
-import React, { Component } from 'react';
+/**
+ * React and Redux
+ */
 
-export default class App extends Component {
+import React, { Component } from 'react';
+import AppSearchBar from '../containers/AppSearchBar';
+import AppWeatherList from '../containers/AppWeatherList';
+
+class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div className="grid-container margin-top-1">
+        <div className="grid-x grid-margin-x">
+          <div className="cell">
+            <AppSearchBar />
+          </div>
+          <div className="cell">
+            <AppWeatherList />
+          </div>
+        </div>
+      </div>
     );
   }
 }
+
+export default App;
